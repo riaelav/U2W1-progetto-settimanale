@@ -152,7 +152,7 @@ h2 {
 
 .single-div {
   padding: 2rem;
-  width: 29%;
+  width: 27%;
 }
 
 .single-div-text {
@@ -183,7 +183,7 @@ h4 {
 .all-div {
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
 }
 
 /*Section*/
