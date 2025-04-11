@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <div class="container">
         <img src="./assets/imgs/svg/logo.svg" alt="" />
 
@@ -189,7 +189,7 @@
           <div class="card">
             <div class="card-body">
               <div class="card-header">
-                <img class="author-img" src="./assets/imgs/image07.jpeg" alt="Author photo" />
+                <img class="author-img" src="./assets/imgs/image09.jpeg" alt="Author photo" />
                 <p class="author-name">Robert Roy Britt</p>
               </div>
               <h4 class="card-title">How Old Is Old?</h4>
@@ -203,13 +203,13 @@
             </div>
 
             <div class="card-image">
-              <img src="./assets/imgs/image08.jpeg" alt="Article image" />
+              <img src="./assets/imgs/image10.jpeg" alt="Article image" />
             </div>
           </div>
           <div class="card">
             <div class="card-body">
               <div class="card-header">
-                <img class="author-img" src="./assets/imgs/image07.jpeg" alt="Author photo" />
+                <img class="author-img" src="./assets/imgs/image11.jpeg" alt="Author photo" />
                 <p class="author-name">Robert Roy Britt</p>
               </div>
               <h4 class="card-title">How Old Is Old?</h4>
@@ -223,13 +223,13 @@
             </div>
 
             <div class="card-image">
-              <img src="./assets/imgs/image08.jpeg" alt="Article image" />
+              <img src="./assets/imgs/image12.png" alt="Article image" />
             </div>
           </div>
           <div class="card">
             <div class="card-body">
               <div class="card-header">
-                <img class="author-img" src="./assets/imgs/image07.jpeg" alt="Author photo" />
+                <img class="author-img" src="./assets/imgs/image13.png" alt="Author photo" />
                 <p class="author-name">Robert Roy Britt</p>
               </div>
               <h4 class="card-title">How Old Is Old?</h4>
@@ -243,13 +243,13 @@
             </div>
 
             <div class="card-image">
-              <img src="./assets/imgs/image08.jpeg" alt="Article image" />
+              <img src="./assets/imgs/image14.png" alt="Article image" />
             </div>
           </div>
           <div class="card">
             <div class="card-body">
               <div class="card-header">
-                <img class="author-img" src="./assets/imgs/image07.jpeg" alt="Author photo" />
+                <img class="author-img" src="./assets/imgs/image15.jpeg" alt="Author photo" />
                 <p class="author-name">Robert Roy Britt</p>
               </div>
               <h4 class="card-title">How Old Is Old?</h4>
@@ -263,7 +263,7 @@
             </div>
 
             <div class="card-image">
-              <img src="./assets/imgs/image08.jpeg" alt="Article image" />
+              <img src="./assets/imgs/image16.jpg" alt="Article image" />
             </div>
           </div>
         </div>
@@ -283,5 +283,16 @@
         </div>
       </aside>
     </div>
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 270) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
   </body>
 </html>

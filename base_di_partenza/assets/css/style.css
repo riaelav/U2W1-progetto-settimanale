@@ -81,6 +81,7 @@ button:hover {
   width: 400px;
   left: 70%;
   top: 0%;
+  right: 0%;
 }
 
 h1 {
@@ -201,6 +202,7 @@ section h4 {
 
 .card-header {
   display: flex;
+  gap: 1rem;
 }
 
 .card-header img {
@@ -249,4 +251,8 @@ h5 {
   padding-bottom: 0.5rem;
   font-weight: 600;
   font-size: 0.8rem;
+}
+
+.scrolled {
+  background-color: white;
 }
