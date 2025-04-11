@@ -16,6 +16,7 @@ header {
   position: sticky;
   z-index: 100;
   top: 0;
+  transition: background-color 0.4s ease;
 }
 
 /*position: fixed;
