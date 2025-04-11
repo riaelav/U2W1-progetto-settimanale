@@ -30,7 +30,7 @@
             <li>Write</li>
             <li>Sign In</li>
           </ul>
-          <button class="button">Get Started</button>
+          <button id="changeColor" class="button">Get Started</button>
         </nav>
       </div>
     </header>
@@ -285,12 +285,15 @@
     </div>
     <script>
       const header = document.getElementById("header");
+      const button = document.getElementById("changeColor");
 
       window.addEventListener("scroll", function () {
         if (window.scrollY > 270) {
           header.classList.add("scrolled");
+          button.classList.add("scrolled-button");
         } else {
           header.classList.remove("scrolled");
+          button.classList.remove("scrolled-button");
         }
       });
     </script>
