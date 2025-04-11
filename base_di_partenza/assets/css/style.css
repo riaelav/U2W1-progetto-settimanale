@@ -1,0 +1,252 @@
+/*BODY*/
+body {
+  font-family: "Roboto";
+  /*padding-top: 69px;*/
+}
+
+/*HEADER*/
+h1 {
+  font-family: "Spectral";
+}
+
+header {
+  background-color: rgb(255, 192, 23);
+  padding: 1rem;
+  border-bottom: solid 1px black;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+/*position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;*/
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+}
+ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+/*container*/
+
+.container {
+  max-width: 200vh;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+/*HERO*/
+
+.hero {
+  background-color: rgb(255, 192, 23);
+  padding-top: 3rem;
+  position: relative;
+  overflow: hidden;
+  border-bottom: solid 1px black;
+}
+
+.hero .container {
+  display: flex;
+
+  justify-content: flex-start;
+}
+.hero img {
+  position: absolute;
+  width: 400px;
+  left: 70%;
+  top: 0%;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero p {
+  padding-bottom: 2rem;
+}
+
+.hero button {
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+
+/*MAIN*/
+main {
+  padding-top: 3rem;
+  border-bottom: solid 1px rgb(226, 224, 224);
+  padding-bottom: 2rem;
+}
+
+main .trending {
+  display: flex;
+}
+
+h2 {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/*interno di ogni div*/
+.number {
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgba(128, 128, 128, 0.201);
+}
+.all-div {
+  padding-top: 3rem;
+}
+
+.number-author {
+  display: flex;
+  gap: 2rem;
+}
+
+.number {
+  font-size: 2rem;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.author p {
+  margin-top: 0.5rem;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.single-div {
+  padding: 2rem;
+  width: 29%;
+}
+
+.single-div-text {
+  width: 100%;
+  padding-left: 4.2rem;
+  padding-top: 0.5rem;
+}
+
+.single-div-text li {
+  display: inline;
+}
+
+.single-div-text p {
+  display: inline;
+}
+
+.author-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+/*gestione all div*/
+
+.all-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+/*Section*/
+section {
+  padding-top: 2rem;
+  padding-inline: 3rem;
+}
+
+section h4 {
+  font-size: 1.5rem;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-header img {
+  border-radius: 50%;
+}
+.author-name {
+  margin-top: 1rem;
+}
+.card-body {
+  margin-right: 1rem;
+}
+
+.card-description {
+  color: rgb(184, 179, 179);
+}
+.card-image img {
+  width: 300px;
+}
+/*ASIDE*/
+
+.section-aside {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 500px;
+  padding-inline: 3rem;
+}
+
+.buttons button {
+  border-color: rgb(184, 179, 179);
+  color: rgb(184, 179, 179);
+  font-family: inherit;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 30%;
+  font-size: 0.5rem;
+}
+h5 {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
