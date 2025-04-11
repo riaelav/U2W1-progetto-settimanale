@@ -80,9 +80,8 @@ button:hover {
 .hero img {
   position: absolute;
   width: 400px;
-  left: 70%;
-  top: 0%;
-  right: 0%;
+  left: 75%;
+  top: -5%;
 }
 
 h1 {
